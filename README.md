@@ -1,5 +1,5 @@
 <h1 align="center">
-<img style="width: 30%" src="https://github.githubassets.com/images/modules/explore/social.jpg">
+<img src="https://github.githubassets.com/images/modules/explore/social.jpg" width="35%">
 </h1>
 
 <h1 align="center">
