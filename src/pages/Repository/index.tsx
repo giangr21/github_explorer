@@ -42,6 +42,9 @@ const Repository: React.FC = () => {
     api.get(`repos/${params.repository}/issues`).then((response) => {
       setIssues(response.data);
     });
+
+    // Could use that way also
+
     // async function loadData(): Promise<void> {
     //   const [repositories, issues] = await Promise.all([
     //     api.get(`repos/${params.repository}`),
@@ -84,7 +87,7 @@ const Repository: React.FC = () => {
             </li>
             <li>
               <strong>{repository.open_issues_count}</strong>
-              <span>Issues Abertas</span>
+              <span>Issues Open</span>
             </li>
           </ul>
         </RepositoryInfo>

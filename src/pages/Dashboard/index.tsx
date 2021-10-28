@@ -39,7 +39,7 @@ const Dashboard: React.FC = () => {
   ): Promise<void> {
     event.preventDefault();
     if (!newRepo) {
-      setInputError('Digite o autor, nome do repositorio');
+      setInputError('Search for the author, name of the repository');
       return;
     }
     try {
@@ -49,23 +49,23 @@ const Dashboard: React.FC = () => {
       setNewRepo('');
       setInputError('');
     } catch {
-      setInputError('Erro na busca por esse repositorio');
+      setInputError('Error searching for this repo');
     }
   }
 
   return (
     <>
       <img src={logoImg} alt="logo" />
-      <Title>Explore repositorios no Github</Title>
+      <Title>Search for repositories at Github</Title>
 
       <Form hasError={!!inputError} onSubmit={handleAddRepository}>
         <input
           value={newRepo}
           onChange={(e) => setNewRepo(e.target.value)}
-          placeholder="Digite o repositorio (facebook/react)"
+          placeholder="Type the name of the repo ex: (facebook/react)"
           type="text"
         />
-        <button type="submit">Pesquisar</button>
+        <button type="submit">Search</button>
       </Form>
 
       {inputError && <Error>{inputError}</Error>}
