@@ -3,6 +3,8 @@ import { FiChevronRight } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import logoImg from '../../assets/logo.svg';
 import api from '../../services/api';
+import Button from '../components/button';
+import Input from '../components/input';
 import { Error, Form, Repositories, Title } from './styles';
 
 interface Repository {
@@ -59,13 +61,12 @@ const Dashboard: React.FC = () => {
       <Title>Search for repositories at Github</Title>
 
       <Form hasError={!!inputError} onSubmit={handleAddRepository}>
-        <input
-          value={newRepo}
-          onChange={(e) => setNewRepo(e.target.value)}
+        <Input
           placeholder="Type the name of the repo ex: (facebook/react)"
-          type="text"
+          newRepo={newRepo}
+          setNewRepo={(value) => setNewRepo(value)}
         />
-        <button type="submit">Search</button>
+        <Button text="search" />
       </Form>
 
       {inputError && <Error>{inputError}</Error>}

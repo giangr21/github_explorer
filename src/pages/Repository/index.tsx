@@ -60,7 +60,7 @@ const Repository: React.FC = () => {
         <img src={logoImg} alt="logo" />
         <Link to="/">
           <FiChevronLeft size={16} />
-          Voltar
+          Back
         </Link>
       </Header>
 
