@@ -6,7 +6,7 @@
   <img src="public/gif-readme.gif">
 </h1>
 
-## 🔖 Sobre
+## 🔖 About
 The project **GitHub Explorer** was developed during the bootcamp GoStack in order to put into practice what was studied during the season 3
 
 ---
