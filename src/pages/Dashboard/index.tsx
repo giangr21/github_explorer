@@ -57,8 +57,7 @@ const Dashboard: React.FC = () => {
 
   return (
     <>
-      <img src={logoImg} alt="logo" />
-      <Title>Search for repositories at Github</Title>
+      <Title>🍔 Search for repositories at Github</Title>
 
       <Form hasError={!!inputError} onSubmit={handleAddRepository}>
         <Input
