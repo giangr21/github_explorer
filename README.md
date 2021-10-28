@@ -7,14 +7,13 @@
 </h1>
 
 ## 🔖 Sobre
-
-O projeto **GitHub Explorer** foi desenvolvido durante o bootcamp GoStack com o intuito de colocarmos em pratica o conteudo abordado no modulo 3 sobre ReactJS
+The project **GitHub Explorer** was developed during the bootcamp GoStack in order to put into practice what was studied during the season 3
 
 ---
 
-## 🌐 Tecnologias utilizadas
+## 🌐 Technologies
 
-O projeto foi desenvolvido utilizando as seguintes tecnologias
+The project was developed using the followings technologies
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [ReactJS](https://pt-br.reactjs.org/)
@@ -23,7 +22,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ---
 
-## 📥 Como baixar o projeto
+## 📥 How to download the project
 
 ```bash
 
@@ -34,10 +33,10 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
     $ cd github_explorer
 
     # instalar as dependências
-    $ yarn
+    $ yarn or npm i 
 
     # Iniciar o projeto
-    $ yarn start
+    $ yarn start or npm star
 ```
 ---
-🔛 Desenvolvido  por Gian Antunes.
+🔛 Developed by Gian Antunes.
